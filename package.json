@@ -24,8 +24,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run lint && npm test",
-      "pre-push": "yarn run lint && npm test"
+      "pre-commit": "yarn run lint && yarn test",
+      "pre-push": "yarn run lint && yarn test"
     }
   },
   "eslintConfig": {
